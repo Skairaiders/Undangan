@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  <audio id="sound1" src="sound.mp3" preload="auto"></audio>
+  <button onclick="document.getElementById('sound1').play();">Play
+  it</button>
+  <script>
+    jQuery(function(){
+       jQuery('#sound1').click();
+    });
+    </script>
   <head>
     <meta charset="utf-8" />
     <meta name="theme-color" content="#BC8887" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Undangan Pernikahan Sherly & Daeng</title>
+    <title>Undangan Pernikahan Randi & Gina</title>
 
     <meta property="og:title" content="Undangan Pernikahan Sherly & Daeng - Sabtu, 21 Maret 2020">
     <meta property="og:description" content="Undangan Pernikahan Sherly & Daeng - Sabtu, 21 Maret 2020 di RM Pondok Kenanga, Jakasampurna Bekasi">
@@ -42,6 +50,7 @@
   </head>
 
   <body>
+
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -146,7 +155,7 @@
           <div class="hero-foot--wrapper">
             <div class="columns">
               <div class="column is-12 hero-menu-desktop has-text-centered">
-                <ul>
+                <ul hidden>
                   <li class="is-active">
                     <a href="#home">Beranda</a>
                   </li>
@@ -468,5 +477,7 @@
         duration: 800,
       });
     </script>
+
   </body>
+
 </html>
